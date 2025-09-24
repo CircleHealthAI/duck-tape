@@ -44,10 +44,6 @@ Evaluate a candidate's ability to build a small frontend experience and integrat
 - If you had another hour, what would you improve first and why?
 
 ### Notes
-<<<<<<< Current (Your changes)
-- The API route `src/app/api/suggestions/route.ts` uses the OpenAI Chat Completions API and falls back to mock results without a key. Candidates may replace or enhance it.
- - Provider is fixed to OpenAI for this assessment.
-=======
 - In this skeleton, the API route `src/app/api/suggestions/route.ts` returns 501. Candidates must implement the API (LLM call or mock fallback) and the rendering.
 - Provider suggestions: OpenAI-compatible APIs are acceptable. Evaluate approach and safety rather than provider choice.
 
@@ -74,6 +70,5 @@ Evaluate a candidate's ability to build a small frontend experience and integrat
 - 7–8: Solid implementation; minor gaps in a11y or parsing
 - 5–6: Meets basics but rough edges in UX or API robustness
 - <5: Significant missing states, brittle parsing, or unclear code structure
->>>>>>> Incoming (Background Agent changes)
 
 

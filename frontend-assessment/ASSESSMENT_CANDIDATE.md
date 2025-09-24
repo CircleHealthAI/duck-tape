@@ -42,12 +42,6 @@ Environment:
 - Keyboard shortcuts and focus management.
 
 ### Delivery
-<<<<<<< Current (Your changes)
-- Commit your changes into this folder.
-- Include a short note in this file describing your choices and any tradeoffs.
-
-
-=======
 - Commit your changes in this folder.
 - Add a short note below describing your approach and tradeoffs.
 
@@ -58,4 +52,3 @@ Notes from you:
 - Implementation summary:
 - Tradeoffs/assumptions:
 - If you had more time:
->>>>>>> Incoming (Background Agent changes)
