@@ -36,6 +36,6 @@ Evaluate a candidate's ability to build a small frontend experience and integrat
 - If you had another hour, what would you improve first and why?
 
 ### Notes
-- The API route `src/app/api/suggestions/route.ts` uses an OpenAI-compatible Chat Completions request and falls back to mock results without a key. Candidates may replace or enhance it.
-- Any reasonable provider (OpenAI, OpenRouter, Together, etc.) is acceptable.
+- The API route `src/app/api/suggestions/route.ts` uses the OpenAI Chat Completions API and falls back to mock results without a key. Candidates may replace or enhance it.
+ - Provider is fixed to OpenAI for this assessment.
 

@@ -10,7 +10,7 @@ The focus is on frontend quality (React + UI/UX) and integrating with an LLM API
 
 ### Starter
 - Use the provided starter in this folder (`frontend-assessment`).
-- There's an API route at `src/app/api/suggestions/route.ts` that calls an OpenAI-compatible endpoint or returns mock data when no key is set.
+- There's an API route at `src/app/api/suggestions/route.ts` that calls the OpenAI Chat Completions API (hardcoded base URL) or returns mock data when no key is set.
 - The main page `src/app/page.tsx` contains a basic form and render logic you can improve.
 
 ### Requirements
@@ -30,7 +30,7 @@ npm run dev
 
 2) Configure environment variables (optional for live LLMs):
 - Copy `.env.example` to `.env.local`
-- Set `OPENAI_API_KEY`, and optionally `OPENAI_BASE_URL` and `OPENAI_MODEL`
+- Set `OPENAI_API_KEY`, and optionally change `OPENAI_MODEL`
 
 If you don't provide a key, the app returns mock results so you can still complete the UI.
 

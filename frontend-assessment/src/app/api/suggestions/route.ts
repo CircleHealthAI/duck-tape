@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
     }
 
     const apiKey = process.env.OPENAI_API_KEY;
-    const baseUrl = process.env.OPENAI_BASE_URL || "https://api.openai.com/v1";
+    const baseUrl = "https://api.openai.com/v1"; // OpenAI provider
     const model = process.env.OPENAI_MODEL || "gpt-4o-mini";
 
     // If no API key is provided, return mock data so the app still works.
