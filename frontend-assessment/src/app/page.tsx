@@ -9,27 +9,6 @@ export default function Home() {
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
-<<<<<<< Current (Your changes)
-    // Intentionally left blank for assessment
-=======
-    setError(null);
-    setLoading(true);
-    try {
-      const res = await fetch("/api/suggestions", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt }),
-      });
-      const json = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(json?.error || "Not implemented");
-      // TODO: Render the returned suggestions (title, description, ingredients)
-      // console.log(json);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Unknown error");
-    } finally {
-      setLoading(false);
-    }
->>>>>>> Incoming (Background Agent changes)
   }
 
   return (
